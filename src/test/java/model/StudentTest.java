@@ -38,6 +38,6 @@ public class StudentTest {
         String surname = "Fernandez";
         Student s = new Student("", "");
         s.setSurname(surname);
-        assertEquals(surname,s.getSurname());
+        assertEquals(surname+"!",s.getSurname());
     }
 }
